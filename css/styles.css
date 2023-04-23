@@ -1,0 +1,280 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  max-width: 1440px;
+  color: #111111;
+  background-color: #fcf1e0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+.list {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+a:hover {
+  color: #fd9222;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: 100%;
+}
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.main-page {
+  width: 185px;
+  height: 20px;
+  font-family: "Montserrat";
+  font-style: italic;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.11;
+  letter-spacing: -0.03em;
+}
+.header-link {
+  display: block;
+  color: #111111;
+  padding: 0 12px 0;
+}
+.header {
+  width: 100%;
+  padding: 24px 32px 32px;
+}
+.pages-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 80px;
+}
+.header-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.main-header-link {
+  display: block;
+  font-family: "Montserrat";
+  font-style: italic;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 20px;
+  letter-spacing: -0.03em;
+  color: #111111;
+}
+.list-item {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.14;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.02em;
+  color: #111111;
+}
+.list-item:not(:last-child) {
+  margin-right: 24px;
+}
+.contacts-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.address {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+}
+.second-address {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.gmail-item {
+  display: block;
+  margin: 0 auto;
+}
+
+.social-icons {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.social-icons:hover {
+  fill: #fd9222;
+}
+.contacts-item {
+  padding: 0 12px 0;
+}
+.color-links {
+  color: #434455;
+}
+.image-list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.image-item {
+  max-height: 480px;
+  flex-basis: calc(100% / 3);
+}
+
+.info-title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+.info-text {
+  margin: 0 auto;
+  max-width: 75%;
+  margin-bottom: 32px;
+}
+.video-title {
+  margin: 60px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat";
+  font-style: italic;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 20px;
+  letter-spacing: -0.03em;
+  color: #111111;
+}
+.iframe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.footer-form {
+}
+.subscribe-container {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.action-advice {
+  margin: 0 auto;
+  max-width: 85%;
+  font-family: "Montserrat";
+  font-style: italic;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 20px;
+}
+.name-input {
+  margin-right: 12px;
+  font-family: "Montserrat";
+  font-style: italic;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.14;
+}
+.mail-label {
+  margin-left: 20px;
+}
+.mail-input {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  padding-left: 16px;
+}
+.mail-input::placeholder {
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+}
+.subscribe-button {
+  margin: 60px auto;
+  background: #fd9222;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  border-radius: 4px;
+  border: none;
+  color: #ffffff;
+  padding: 8px 24px;
+  width: 260px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+  transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.telegram-svg {
+  fill: #000000;
+  margin-left: 16px;
+}
+.subscribe-button:hover .telegram-svg {
+  fill: #ffffff;
+}
+.subscribe-button:hover {
+  background: #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+.about-symbols {
+  max-width: 75%;
+  margin: 40px auto;
+}
+.space-items {
+  flex-basis: calc((100% - 40px) / 2);
+}
+.space-items:nth-child(odd) {
+  margin-right: 40px;
+}
+.margin {
+  margin-bottom: 40px;
+}
+.fountains-section {
+  padding: 0 0 80px 0;
+}
+.fountains-text {
+  margin: 20px auto;
+  width: 360px;
+  font-family: "Montserrat";
+  font-style: italic;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.11;
+  letter-spacing: -0.03em;
+}
+.active {
+  color: #fd9222;
+}
